@@ -1,15 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Node on Azure</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Profile Page</title>
 </head>
-<body>
-<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-<p>This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.</p>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        background-color: rgb(14, 55, 94);
+        color: white;
+    }
 
-Additional application functionality includes:<br />
-<a href="fetching-from-server.html">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-<a href="fetching-remote-dog-breeds.html">Accessing Remote Application Programming Interfaces (APIs)</a>
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    img {
+        display: block;
+        width: 50%;
+        height: 800px;
+        margin-left: 40px;
+    }
+
+    main {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 0 50px;
+        font-size: 30px;
+    }
+    
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .email {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    .email:hover {
+        font-size: 20px;
+    }
+    .github {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px
+    }
+    .github:hover {
+        font-size: 20px;
+    }
+    .discord {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px
+    }
+    .discord:hover {
+        font-size: 20px;
+    }
+
+    .class-info {
+        margin-top: 30px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        border-top: 2px solid black;
+        padding-top: 10px;
+    }
+    .class-data {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .achieve {
+        width: 20%;
+    }
+    .fun-fact {
+        
+    }
+</style>
+<body>
+    <header>
+        <h1>Tyler Zenisek</h1>
+    </header>
+
+    <main>
+        <div class="intro">
+            <img src="./assets/Snapchat-900985532.jpg" alt="Profile-Pic" />
+            <div class="introduction">
+                <h3>Introduction</h3>
+                <p>Hello! My name is Tyler Zenisek and I am a student at Lewis University studying my bachelors in Computer Science and software development. Currently in my 4th year on track to graduate May of next year, 2024. Outside of my schooling I enjoy a variety of sports, powerlifting, line and country swing dancing, gaming and much more. Recently i've picked up the hobby of ballisong flipping. I work as a server/bartender as a means of income.</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <a href="mailto: tylerzenisek@lewis.edu">
+                <div class="email">
+                    <h3>Email</h3>
+                    <h3>tylerzenisek@lewis.edu</h3>
+                </div>
+            </a>
+            <a href="https://github.com/tzenisekj">
+                <div class="github">
+                    <h3>Github</h3>
+                    <h3>https://github.com/tzenisekj</h3>
+                </div>
+            </a>
+            <a href="https://discord.com">
+                <div class="discord">
+                    <h3>Discord</h3>
+                    <h3>RuneGlave#6876</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="class-info">
+            <h3>Capstone Class</h3>
+            <div class="class-data">
+                <div class="achieve">
+                    <h3>What I Hope to achive in this course</h3>
+                    <ul>
+                        <li>Exposure to working with new languages and frameworks</li>
+                        <li>Leading scrum sprint meetings</li>
+                        <li>Experience and tips with working in a team of software development</li>
+                    </ul>
+                </div>
+                <div class="hobby">
+                    <h3>My Favorite Hobby / Activity</h3>
+                    <ul>
+                        <li>Ballisong Flipping</li>
+                        <li>Line Dance/Country Swing</li>
+                        <li>Coding</li>
+                    </ul>
+                </div>
+                <div class="fun-fact">
+                    <h3>Fun Fact</h3>
+                    <ul>
+                        <li>I have 5 names as my full name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
